@@ -1,0 +1,11 @@
+## test5.lang: Comment Testing
+## This is a full line comment
+start
+    declare X ## This is an end-of-line comment
+    X = 100
+    ## The next line is just a comment
+    ## loop test
+    loop X
+        output "Testing"
+    finish
+finish ## Final comment at EOF
