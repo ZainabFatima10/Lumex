@@ -1,0 +1,13 @@
+## test2.lang: Complex Numeric and Boolean Expressions
+declare Initial_value = -500
+declare Multiplier = +12.55
+declare Result = Initial_value * Multiplier + (100.5e-2)
+
+condition Result > 0
+    return true
+else
+    return false
+
+loop Counter_123
+    output "Processing..."
+finish
