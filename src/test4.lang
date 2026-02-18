@@ -1,0 +1,17 @@
+## test4.lang: Lexical Errors for ErrorHandler Testing
+
+## 1. Invalid Characters
+declare My_val @ 50
+$price = 100 ^ 2
+
+## 2. Malformed Literals
+declare Bad_float = 3.          ## Missing digits after decimal
+declare Bad_exp = 1.5e+         ## Missing exponent digits
+declare Bad_string = "Unterminated string ends here
+
+## 3. Invalid Identifiers
+declare count = 10              ## Starts with lowercase
+declare ThisIdentifierIsTooLongForTheLanguageSpecLimit31Chars = 0
+
+## 4. Malformed Char
+declare Bad_char = 'ABC'        ## Length greater than 1
