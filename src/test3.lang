@@ -1,0 +1,11 @@
+## test3.lang: String and Char Literals with Escape Sequences
+declare String_1 = "This is a simple string"
+declare String_2 = "String with a newline char: \n"
+declare String_3 = "String with a tab: \t and a backslash: \\"
+declare String_4 = "Escaped double quote: \" inside quotes"
+
+declare Char_1 = 'A'
+declare Char_2 = '\n'
+declare Char_3 = '\t'
+declare Char_4 = '\''
+declare Char_5 = '\\'
