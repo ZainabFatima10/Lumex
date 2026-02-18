@@ -1,0 +1,40 @@
+## Keywords - case sensitive
+start finish loop condition declare output input function return break continue else
+
+## Boolean literals
+true false
+
+## Identifiers - must start with capital letters and must not exceed a length of 31
+Variable
+X
+Variable_variable
+V_______
+
+## Integer literals
+0
+-100
++567
+10
+
+## Float Literals
+7.8
+3.142
+1.2e+3456
+-0.9999
+
+## String Literals
+"Hello, World!"
+"Line with a newline\n"
+"Tabbed\tContent"
+"Escaped quote: \" and backslash: \\"
+
+## Character Literals
+'A'
+'7'
+'\n'
+'\t'
+'\''
+'\"'
+
+
+
